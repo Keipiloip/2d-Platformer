@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"death_uptate",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"death_uptate",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
