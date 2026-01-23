@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"sPlayerMask",
   "bboxMode":1,
-  "bbox_bottom":39,
+  "bbox_bottom":29,
   "bbox_left":0,
-  "bbox_right":9,
+  "bbox_right":7,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":40,
+  "height":30,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"b5ab7039-ea18-4ff5-8ada-7b7d2927a4c4","blendMode":0,"displayName":"default","isLocked":false,"name":"b5ab7039-ea18-4ff5-8ada-7b7d2927a4c4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":10,
+  "width":8,
 }

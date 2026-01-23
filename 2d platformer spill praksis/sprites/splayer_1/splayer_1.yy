@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"splayer",
+  "%Name":"splayer_1",
   "bboxMode":2,
   "bbox_bottom":96,
   "bbox_left":15,
@@ -19,12 +19,12 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":96,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"7e3ab23c-cf90-4a6f-a07f-720c59afa058","blendMode":0,"displayName":"default","isLocked":false,"name":"7e3ab23c-cf90-4a6f-a07f-720c59afa058","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"splayer",
+  "name":"splayer_1",
   "nineSlice":{
     "$GMNineSliceData":"",
     "bottom":0,
@@ -91,23 +91,23 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"60439159-b2b5-4f15-9603-cf8eca9405b7","path":"sprites/splayer/splayer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"60439159-b2b5-4f15-9603-cf8eca9405b7","path":"sprites/splayer_1/splayer_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"cd5044ef-27b7-45a2-a27c-4b2e255b5d8f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c9fcdbd5-1e58-414c-97d7-27d4841bf1e3","path":"sprites/splayer/splayer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c9fcdbd5-1e58-414c-97d7-27d4841bf1e3","path":"sprites/splayer_1/splayer_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"57b47efe-1c35-4736-9510-17fc43801277","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a0d3de3f-3d3f-4a37-ae32-1724f5ce693d","path":"sprites/splayer/splayer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a0d3de3f-3d3f-4a37-ae32-1724f5ce693d","path":"sprites/splayer_1/splayer_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"183ae788-8ae2-4827-ad49-7e1c8b5d0fb0","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dc1a4479-2b7e-4b34-adb6-c9b75fc9a9fd","path":"sprites/splayer/splayer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dc1a4479-2b7e-4b34-adb6-c9b75fc9a9fd","path":"sprites/splayer_1/splayer_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"5a3c95b2-0960-410a-89b7-c06ce7cb1a44","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":32,
-    "yorigin":32,
+    "xorigin":48,
+    "yorigin":48,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
@@ -117,5 +117,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":96,
 }

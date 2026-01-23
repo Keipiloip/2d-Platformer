@@ -68,6 +68,7 @@
     {"id":{"name":"sExplode","path":"sprites/sExplode/sExplode.yy",},},
     {"id":{"name":"sGem","path":"sprites/sGem/sGem.yy",},},
     {"id":{"name":"sHazard","path":"sprites/sHazard/sHazard.yy",},},
+    {"id":{"name":"splayer_1","path":"sprites/splayer_1/splayer_1.yy",},},
     {"id":{"name":"splayer","path":"sprites/splayer/splayer.yy",},},
     {"id":{"name":"sPlayerAir","path":"sprites/sPlayerAir/sPlayerAir.yy",},},
     {"id":{"name":"sPlayerMask","path":"sprites/sPlayerMask/sPlayerMask.yy",},},
