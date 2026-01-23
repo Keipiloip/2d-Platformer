@@ -6,9 +6,9 @@ vsp += grav;
 vsp = clamp(vsp,-vsp_max,vsp_max);
 
 //horizontal collision
-if (place_meeting(x+hsp,y,oBlock)) {
+if (place_meeting(x+hsp,y,oCollision)) {
 	var _pixel = sign(hsp);
-	while (!place_meeting(x+_pixel,y,oBlock)) x +=_pixel
+	while (!place_meeting(x+_pixel,y,oCollision)) x +=_pixel
 	hsp = 0;
 	current_dir *= -1; //change direction
 }
@@ -22,9 +22,9 @@ if (place_meeting(x+hsp,y,oBad)) {
 
 
 //vertical collison
-if (place_meeting(x,y+vsp,oBlock)) {
+if (place_meeting(x,y+vsp,oCollision)) {
 	 var _pixel = sign (vsp);
-	 while (!place_meeting(x,y+_pixel,oBlock)) { y += _pixel; }
+	 while (!place_meeting(x,y+_pixel,oCollision)) { y += _pixel; }
 	 vsp=0
  }
  

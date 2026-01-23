@@ -3,7 +3,7 @@
 #region Current status
 
 //get current status
-var _onground = place_meeting(x,y+groundbuffer,oBlock);
+var _onground = place_meeting(x,y+groundbuffer,oCollision);
 
 
 #endregion
@@ -82,9 +82,9 @@ vsp = clamp(vsp,jumpheight,grav_max); //cap how fast we can fall or rise
 
   
  //horizontal collision
-if (place_meeting(x+hsp,y,oBlock)) {
+if (place_meeting(x+hsp,y,oCollision)) {
 	var _pixel = sign(hsp);
-	while (!place_meeting(x+_pixel,y,oBlock)) { x += _pixel; }
+	while (!place_meeting(x+_pixel,y,oCollision)) { x += _pixel; }
 	hsp = 0;
 }
 
@@ -93,9 +93,9 @@ if (place_meeting(x+hsp,y,oBlock)) {
  if (hsp ==0) { x = round(x); }
  
  //vertical collision
- if (place_meeting(x,y+vsp,oBlock)) {
+ if (place_meeting(x,y+vsp,oCollision)) {
 	 var _pixel = sign (vsp);
-	 while (!place_meeting(x,y+_pixel,oBlock)) { y += _pixel; }
+	 while (!place_meeting(x,y+_pixel,oCollision)) { y += _pixel; }
 	 vsp=0
  }
  

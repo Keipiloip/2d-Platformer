@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oBlock",
+  "%Name":"oCollision",
   "eventList":[],
   "managed":true,
-  "name":"oBlock",
+  "name":"oCollision",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBlock",
-    "path":"sprites/sBlock/sBlock.yy",
+    "name":"sCollision",
+    "path":"sprites/sCollision/sCollision.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
