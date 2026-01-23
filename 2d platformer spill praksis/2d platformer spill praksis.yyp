@@ -28,6 +28,7 @@
   ],
   "ForcedPrefabProjectReferences":[
     {"link":"io.gamemaker.sdfshaders-1.0.0","name":"io.gamemaker.sdfshaders-1.0.0","path":"io.gamemaker.sdfshaders-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_edgedetect-1.0.0","name":"io.gamemaker.gm_filter_edgedetect-1.0.0","path":"io.gamemaker.gm_filter_edgedetect-1.0.0.yyp",},
   ],
   "IncludedFiles":[],
   "isEcma":false,
@@ -39,7 +40,6 @@
   "resources":[
     {"id":{"name":"ft_gui","path":"fonts/ft_gui/ft_gui.yy",},},
     {"id":{"name":"oBad","path":"objects/oBad/oBad.yy",},},
-    {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},},
     {"id":{"name":"oCollision","path":"objects/oCollision/oCollision.yy",},},
     {"id":{"name":"odoor","path":"objects/odoor/odoor.yy",},},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
@@ -72,7 +72,9 @@
     {"id":{"name":"sPlayerAir","path":"sprites/sPlayerAir/sPlayerAir.yy",},},
     {"id":{"name":"sPlayerMask","path":"sprites/sPlayerMask/sPlayerMask.yy",},},
     {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},},
+    {"id":{"name":"sSpringTile","path":"sprites/sSpringTile/sSpringTile.yy",},},
     {"id":{"name":"sWeapon","path":"sprites/sWeapon/sWeapon.yy",},},
+    {"id":{"name":"Spring","path":"tilesets/Spring/Spring.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
