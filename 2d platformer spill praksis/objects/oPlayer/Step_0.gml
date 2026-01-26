@@ -37,7 +37,7 @@ _key_attack = 0;
  var _dir = _key_right - _key_left;
  
  //get horizontal speed (negative left, positive means right)
- hsp += _dir*accel;
+ hsp +=  _dir*accel;
  
  //slow down characther if no direction key is being presseed
  if (_dir ==0) {
