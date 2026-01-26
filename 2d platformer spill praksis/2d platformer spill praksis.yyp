@@ -57,6 +57,7 @@
     {"id":{"name":"fadein","path":"scripts/fadein/fadein.yy",},},
     {"id":{"name":"fadeout","path":"scripts/fadeout/fadeout.yy",},},
     {"id":{"name":"roomcode","path":"scripts/roomcode/roomcode.yy",},},
+    {"id":{"name":"sB_spring","path":"sprites/sB_spring/sB_spring.yy",},},
     {"id":{"name":"sB","path":"sprites/sB/sB.yy",},},
     {"id":{"name":"sB2","path":"sprites/sB2/sB2.yy",},},
     {"id":{"name":"sB3","path":"sprites/sB3/sB3.yy",},},
