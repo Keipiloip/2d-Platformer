@@ -50,7 +50,6 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oWeapon","path":"objects/oWeapon/oWeapon.yy",},},
     {"id":{"name":"rLevel1","path":"rooms/rLevel1/rLevel1.yy",},},
-    {"id":{"name":"rLevel2","path":"rooms/rLevel2/rLevel2.yy",},},
     {"id":{"name":"Splash","path":"rooms/Splash/Splash.yy",},},
     {"id":{"name":"death_uptate","path":"scripts/death_uptate/death_uptate.yy",},},
     {"id":{"name":"death","path":"scripts/death/death.yy",},},
@@ -83,7 +82,6 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rLevel1","path":"rooms/rLevel1/rLevel1.yy",},},
     {"roomId":{"name":"Splash","path":"rooms/Splash/Splash.yy",},},
-    {"roomId":{"name":"rLevel2","path":"rooms/rLevel2/rLevel2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

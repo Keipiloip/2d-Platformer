@@ -9,8 +9,8 @@
   "name":"oGem",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Paths",
+    "path":"folders/Paths.yy",
   },
   "parentObjectId":null,
   "persistent":false,
