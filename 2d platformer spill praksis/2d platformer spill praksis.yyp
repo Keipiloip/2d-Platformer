@@ -34,7 +34,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.213",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"2d platformer spill praksis",
   "resources":[
@@ -45,7 +45,6 @@
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
     {"id":{"name":"oExplode","path":"objects/oExplode/oExplode.yy",},},
     {"id":{"name":"oFade","path":"objects/oFade/oFade.yy",},},
-    {"id":{"name":"oGem","path":"objects/oGem/oGem.yy",},},
     {"id":{"name":"oHazard","path":"objects/oHazard/oHazard.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oWeapon","path":"objects/oWeapon/oWeapon.yy",},},
@@ -68,7 +67,6 @@
     {"id":{"name":"sExplode","path":"sprites/sExplode/sExplode.yy",},},
     {"id":{"name":"sGem","path":"sprites/sGem/sGem.yy",},},
     {"id":{"name":"sHazard","path":"sprites/sHazard/sHazard.yy",},},
-    {"id":{"name":"splayer_1","path":"sprites/splayer_1/splayer_1.yy",},},
     {"id":{"name":"splayer","path":"sprites/splayer/splayer.yy",},},
     {"id":{"name":"sPlayerAir","path":"sprites/sPlayerAir/sPlayerAir.yy",},},
     {"id":{"name":"sPlayerMask","path":"sprites/sPlayerMask/sPlayerMask.yy",},},

@@ -4,7 +4,7 @@
   "bboxMode":1,
   "bbox_bottom":29,
   "bbox_left":0,
-  "bbox_right":7,
+  "bbox_right":14,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -23,7 +23,7 @@
   ],
   "name":"sPlayerMask",
   "nineSlice":null,
-  "origin":0,
+  "origin":1,
   "parent":{
     "name":"Sprites",
     "path":"folders/Sprites.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":7,
     "yorigin":0,
   },
   "swatchColours":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":8,
+  "width":15,
 }
