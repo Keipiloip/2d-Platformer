@@ -64,6 +64,10 @@ if (jumpbuffer > 0) { //chek if the jump buffer is greater than 0
 	if (_key_jump) && (vsp > 0) { //jump key pressed, and player NOT going up
 		jumpbuffer = 0; //set jumbuffer to 0 (cant jump again
 		vsp = jumpheight;			//jump up
+		
+		if (!audio_is_playing(sndJump)){
+	    audio_play_sound(sndJump,1,false)
+}
 	}
 }
 
@@ -121,6 +125,10 @@ if (!_onground) { //if in the air
 	if (hsp !=0)  { //if moving left or right
 		sprite_index =sPlayerRun
 		image_speed = (hsp/max_hsp)*sign(hsp); 
+		if (!audio_is_playing(sndStep)){
+			audio_play_sound(sndStep,1,false)
+}
+		
 	} else { //standing still
 		sprite_index = splayer; 
 	}
