@@ -143,7 +143,9 @@ if (attack_cooldown > 0) { //if attack cooldown isnt at 0, reduce it to 0
 	if (_key_attack) {
 		attack_cooldown = attack_max; //set the cooldown timer
 		instance_create_layer(x,y,"weapon",oWeapon);
-		
+		if (!audio_is_playing(sndAttack)){
+			audio_play_sound(sndAttack,1,false)
+		}
 	}
 		
 }

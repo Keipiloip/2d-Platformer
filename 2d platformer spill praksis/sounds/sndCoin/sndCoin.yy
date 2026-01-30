@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.17088436,
+  "duration":0.26321995,
   "exportDir":"",
   "name":"sndCoin",
   "parent":{
@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"sndCoin.wav",
-  "volume":1.0,
+  "volume":0.2,
 }

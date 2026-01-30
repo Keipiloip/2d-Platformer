@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.10356009,
+  "duration":0.21530612,
   "exportDir":"",
   "name":"sndAttack",
   "parent":{
@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"sndAttack.wav",
-  "volume":1.0,
+  "volume":0.4,
 }
