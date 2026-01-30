@@ -143,8 +143,11 @@ if (attack_cooldown > 0) { //if attack cooldown isnt at 0, reduce it to 0
 
 #region enemies
 if place_meeting(x,y,oBad) {
-game_restart()
-
+sprite_index = sExplode
+if image_index >= (image_number - 1)              // If animation has reached the final frame
+{
+    image_speed = 0;                              // Pause animation
+}
 
 
 }
