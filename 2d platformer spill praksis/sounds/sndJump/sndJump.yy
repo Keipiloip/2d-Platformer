@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":27.480816,
+  "duration":0.13936508,
   "exportDir":"",
   "name":"sndJump",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sndJump.mp3",
+  "soundFile":"sndJump.wav",
   "volume":1.0,
 }

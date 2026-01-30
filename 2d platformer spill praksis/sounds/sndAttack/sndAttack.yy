@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":27.480816,
+  "duration":0.10356009,
   "exportDir":"",
   "name":"sndAttack",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sndAttack.mp3",
+  "soundFile":"sndAttack.wav",
   "volume":1.0,
 }
