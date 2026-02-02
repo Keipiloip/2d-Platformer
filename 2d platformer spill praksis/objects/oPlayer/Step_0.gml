@@ -88,7 +88,7 @@ vsp = clamp(vsp,jumpheight,grav_max); //cap how fast we can fall or rise
  //horizontal collision
 if (place_meeting(x+hsp,y,oCollision_Base)) {
 	var _pixel = sign(hsp);
-	while (!place_meeting(x+_pixel,y,oCollision_Full)) { x += _pixel; }
+	while (!place_meeting(x+_pixel,y,oCollision_Base)) { x += _pixel; }
 	hsp = 0;
 }
 
@@ -97,9 +97,9 @@ if (place_meeting(x+hsp,y,oCollision_Base)) {
  if (hsp ==0) { x = round(x); }
  
  //vertical collision
- if (place_meeting(x,y+vsp,oCollision_Full)) {
+ if (place_meeting(x,y+vsp,oCollision_Base)) {
 	 var _pixel = sign (vsp);
-	 while (!place_meeting(x,y+_pixel,oCollision_Full)) { y += _pixel; }
+	 while (!place_meeting(x,y+_pixel,oCollision_Base)) { y += _pixel; }
 	 vsp=0
  }
  

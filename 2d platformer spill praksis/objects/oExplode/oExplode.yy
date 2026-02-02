@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sExplode",
-    "path":"sprites/sExplode/sExplode.yy",
+    "name":"sPlayerAir",
+    "path":"sprites/sPlayerAir/sPlayerAir.yy",
   },
   "spriteMaskId":null,
   "visible":true,
