@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"oCollision",
+  "%Name":"oCollision_HalfTop",
   "eventList":[],
   "managed":true,
-  "name":"oCollision",
+  "name":"oCollision_HalfTop",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oCollision_Base",
+    "path":"objects/oCollision_Base/oCollision_Base.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sCollision",
-    "path":"sprites/sCollision/sCollision.yy",
+    "name":"sCollision_HalfTop",
+    "path":"sprites/sCollision_HalfTop/sCollision_HalfTop.yy",
   },
   "spriteMaskId":null,
   "visible":false,
