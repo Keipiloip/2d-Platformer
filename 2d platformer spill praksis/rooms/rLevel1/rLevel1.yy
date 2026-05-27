@@ -6,8 +6,8 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_7FA83B6","path":"rooms/rLevel1/rLevel1.yy",},
     {"name":"inst_4BF430BA","path":"rooms/rLevel1/rLevel1.yy",},
+    {"name":"inst_7FA83B6","path":"rooms/rLevel1/rLevel1.yy",},
     {"name":"inst_3C55288D","path":"rooms/rLevel1/rLevel1.yy",},
     {"name":"inst_33D691C4","path":"rooms/rLevel1/rLevel1.yy",},
     {"name":"inst_3CC49E2A","path":"rooms/rLevel1/rLevel1.yy",},
@@ -212,7 +212,7 @@
         {"$GMRInstance":"v4","%Name":"inst_3E9B25B2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3E9B25B2","objectId":{"name":"oHazard","path":"objects/oHazard/oHazard.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":160.0,},
         {"$GMRInstance":"v4","%Name":"inst_E180913","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_E180913","objectId":{"name":"oHazard","path":"objects/oHazard/oHazard.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-0.6338501,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":128.0,},
         {"$GMRInstance":"v4","%Name":"inst_C798D4E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_C798D4E","objectId":{"name":"oHazard","path":"objects/oHazard/oHazard.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":320.0,},
-      ],"layers":[],"name":"Bad","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
+      ],"layers":[],"name":"Bad","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Gems","depth":300,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_1DCF5983","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1DCF5983","objectId":{"name":"oGem","path":"objects/oGem/oGem.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":272.0,},
         {"$GMRInstance":"v4","%Name":"inst_46715F2C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_46715F2C","objectId":{"name":"oGem","path":"objects/oGem/oGem.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":256.0,},
@@ -395,7 +395,7 @@
     {"$GMRTileLayer":"","%Name":"Blocks","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Blocks","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":15,"SerialiseWidth":25,"TileCompressedData":[
           -40,206,-4,0,-6,206,1,-2147483648,-4,206,-2,-2147483648,-6,206,-2,-2147483648,-5,0,4,-2147483648,206,
           195,206,-5,-2147483648,1,186,-13,-2147483648,-2,0,-6,-2147483648,-3,206,-9,-2147483648,2,143,144,-3,
-          194,1,184,-6,-2147483648,10,132,133,195,-2147483648,0,0,-2147483648,77,144,206,-3,-2147483648,14,154,
+          195,1,184,-6,-2147483648,10,132,133,195,-2147483648,0,0,-2147483648,77,144,206,-3,-2147483648,14,154,
           147,143,136,81,81,82,197,197,206,-2147483648,-2147483648,206,206,-3,-2147483648,-3,0,2,157,133,-4,-2147483648,
           6,154,158,103,103,100,-2147483648,-3,197,-9,-2147483648,1,0,-5,-2147483648,2,195,184,-12,-2147483648,
           -2,195,-8,-2147483648,-3,205,-8,-2147483648,6,206,145,-2147483648,-2147483648,195,195,-3,-2147483648,
